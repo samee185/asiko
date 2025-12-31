@@ -4,7 +4,7 @@ import home1 from "../assets/home1.jpeg";
 
 const About = () => {
   return (
-    <section className="py-16 px-5 md:px-8 bg-gray-50 md:py-24" aria-labelledby="about-heading">
+    <section className="py-16 md:px-8 bg-gray-50 md:py-24" aria-labelledby="about-heading">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2
           id="about-heading"

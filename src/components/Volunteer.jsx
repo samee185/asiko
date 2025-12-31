@@ -14,7 +14,9 @@ const Volunteer = () => {
             Become a part of {`Asiko's`} impactful journey by
             volunteering your time and skills.
           </h2>
-          
+          <button className="bg-blue-900 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-sm md:text-base font-medium transition">
+          Get Involved Today
+        </button>
         </div>
       </div>
     </div>
