@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Quote from '../components/Quote';
 import About from '../components/About';
 import Focus from '../components/Focus';
+import MentorsGrid from '../components/MentorsGrid';
 const Home = () => {
   return (
     <main className="">
@@ -10,6 +11,7 @@ const Home = () => {
       <Quote />
       <About />
       <Focus />
+      <MentorsGrid />
     </main>
   );
 };
