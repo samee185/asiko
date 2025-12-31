@@ -15,7 +15,7 @@ const Home = () => {
       <Focus />
       <MentorsGrid />
       <Volunteer />
-      {/* <Testimonials /> */}
+      <Testimonials />
     </main>
   );
 };
