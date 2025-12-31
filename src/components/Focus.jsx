@@ -18,15 +18,17 @@ const Focus = () => {
             <p className="text-sm font-semibold text-blue-600">Focus</p>
             <h2
               id="focus-heading"
-              className="mt-3 text-2xl md:text-4xl font-extrabold text-[#2b2b2b] leading-tight"
+              className="mt-3 text-2xl md:text-4xl font-extrabold text-blue-900 leading-tight"
             >
-              Solving societal problems by equipping young people for the
-              future
+              A prosperous Africa with
+prosperous Africans
             </h2>
             <p className="mt-4 text-base md:text-lg text-gray-600">
-              At WuraisGold, we believe in the transformative power of
+              At Asiko, we believe in the transformative power of
               compassion and action. Join us in our mission to create lasting
-              impact and build a world where every heart shines with hope and
+              impact and to build the Africa we will
+be proud to deliver to future
+generations
               opportunity.
             </p>
             {/* optional CTA placeholder
