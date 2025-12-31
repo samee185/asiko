@@ -15,13 +15,13 @@ const MentorsGrid = () => {
             <h2 id="mentors-heading" className="text-2xl md:text-3xl font-extrabold text-[#111827]">
               Meet our mentors
             </h2>
-            <p className="mt-2 text-gray-600 max-w-xl">
+            <p className="mt-2 text-gray-900 max-w-xl">
               Seasoned practitioners across product, engineering, growth and operations who mentor and advise our community.
             </p>
           </div>
           <div className="mt-3 md:mt-0">
             <div className="inline-flex items-center gap-2 bg-white border border-transparent rounded-full px-3 py-2 shadow-sm">
-              <SparklesIcon className="h-5 w-5 text-blue-600" aria-hidden="true" />
+              <SparklesIcon className="h-5 w-5 text-blue-900" aria-hidden="true" />
               <span className="text-sm font-medium text-[#374151]">Featured mentors</span>
             </div>
           </div>
@@ -34,18 +34,18 @@ const MentorsGrid = () => {
                 <div className="flex items-start gap-4">
                   <div className="shrink-0">
                     <div className="h-14 w-14 rounded-full bg-linear-to-br from-blue-50 to-blue-100 flex items-center justify-center">
-                      <span className="font-semibold text-blue-600">{getInitials(m.name)}</span>
+                      <span className="font-semibold text-blue-900">{getInitials(m.name)}</span>
                     </div>
                   </div>
 
                   <div className="min-w-0">
                     <h3 className="text-lg font-semibold text-[#111827]">{m.name}</h3>
                     <p className="text-sm text-gray-500">{m.role}</p>
-                    <div className="mt-3 text-sm text-gray-600">{m.bio}</div>
+                    <div className="mt-3 text-sm text-gray-900">{m.bio}</div>
 
                     <div className="mt-4 flex flex-wrap items-center gap-2">
                       {m.tags.map((t) => (
-                        <span key={t} className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-600">
+                        <span key={t} className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-900">
                           {t}
                         </span>
                       ))}
@@ -56,7 +56,7 @@ const MentorsGrid = () => {
                 <div className="mt-5 flex items-center gap-3">
                   <a
                     href={`mailto:${m.email}`}
-                    className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition"
+                    className="inline-flex items-center gap-2 px-3 py-2 rounded-md bg-blue-900 text-white text-sm font-medium hover:bg-blue-700 transition"
                     aria-label={`Email ${m.name}`}
                   >
                     <EnvelopeIcon className="h-4 w-4" aria-hidden="true" />
