@@ -9,7 +9,7 @@ const Hero = () => {
         style={{ backgroundImage: `url(${img})` }}
       >
         <div className="absolute w-full h-full top-0 left-0 bg-[rgb(0,0,0,0.4)] z-[-1]"></div>
-        <h2 className="md:w-2/3 text-6xl md:text-6xl font-bold leading-tight capitalize">
+        <h2 className="md:w-2/3 text-4xl md:text-6xl font-bold leading-tight capitalize">
           It’s time to build the Africa we will
         be proud to deliver to future
         generations.
