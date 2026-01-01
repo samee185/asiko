@@ -10,20 +10,20 @@ const Focus = () => {
   return (
     <section
       aria-labelledby="focus-heading"
-      className="bg-linear-to-b from-white to-blue-50"
+      className="bg-linear-to-b from-white to-blue-50 py-12"
     >
       <main className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
           <div className="max-w-xl">
-            <p className="text-sm font-semibold text-blue-600">Focus</p>
+            <p className="text-sm font-extrabold text-blue-600">Focus</p>
             <h2
               id="focus-heading"
-              className="mt-3 text-2xl md:text-4xl font-extrabold text-blue-900 leading-tight"
+              className="mt-3 text-2xl md:text-4xl font-bold text-blue-900 leading-tight"
             >
               A prosperous Africa with
 prosperous Africans
             </h2>
-            <p className="mt-4 text-base md:text-lg text-gray-600">
+            <p className="mt-4 text-base md:text-md text-gray-600">
               At Asiko, we believe in the transformative power of
               compassion and action. Join us in our mission to create lasting
               impact and to build the Africa we will
@@ -102,7 +102,7 @@ const Single = ({ title, Icon, text }) => {
         <div className="min-w-0">
           <h3
             id={`${title.replace(/\s+/g, '-')}-title`}
-            className="text-lg md:text-xl font-semibold text-[#222] leading-tight"
+            className="text-md md:text-xl font-semibold text-[#222] leading-tight"
           >
             {title}
           </h3>

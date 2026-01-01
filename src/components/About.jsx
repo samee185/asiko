@@ -16,23 +16,23 @@ const About = () => {
         <div className="mt-12 grid grid-cols-1 items-center gap-12 md:mt-16 md:grid-cols-2 md:gap-16 lg:gap-24">
           {/* Text content first on mobile for better SEO/reading order */}
           <div className="order-2 md:order-1 flex flex-col gap-6">
-            <p className="text-md leading-8 text-gray-700 md:text-xl">
+            <p className="text-md leading-8 text-gray-700">
               Asiko is a youth-focused organization committed to unlocking Africa’s potential by empowering its young people with the skills, networks, and opportunities to thrive.
             </p>
-            <p className="text-md leading-8 text-gray-700 md:text-xl">
+            <p className="text-md leading-8 text-gray-700">
               Since 2018, Asiko has reached over 5,000 youth through mentorship programs, leadership summits, and capacity-building initiatives designed to foster employability, entrepreneurship, and purposeful leadership.
             </p>
-            <p className="text-md leading-8 text-gray-700 md:text-xl">
+            <p className="text-md leading-8 text-gray-700">
               With a vision for a prosperous Africa led by prosperous Africans, Asiko is building a generation ready to drive sustainable change across the continent.
             </p>
 
             {/* CTA Button - replace with your reusable component if available */}
             <div className="mt-6">
               <a
-                href="/about"
-                className="inline-flex items-center rounded-md bg-blue-700 px-6 py-3 text-base font-medium text-white shadow-sm transition hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                href="/programs"
+                className="inline-flex items-center rounded-md bg-blue-900 px-6 py-3 text-base font-medium text-white shadow-sm transition hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               >
-                Learn More About Us
+                Find Out About Our Programs
                 <svg
                   className="ml-2 h-5 w-5"
                   xmlns="http://www.w3.org/2000/svg"

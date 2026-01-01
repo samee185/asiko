@@ -36,7 +36,7 @@ const Quote = () => {
             {/* Quote with large opening quote mark */}
             <div className="relative max-w-4xl mx-auto">
               <span className="absolute -top-8 -left-4 md:-top-12 md:-left-8 text-6xl md:text-8xl lg:text-9xl text-blue-900 opacity-20 font-serif">“</span>
-              <blockquote className="text-lg md:text-xl lg:text-2xl leading-relaxed text-gray-800 italic relative z-10">
+              <blockquote className="text-md leading-relaxed text-gray-800 italic relative z-10">
                 Distinguished Partners and Friends,<br />
                 It is with immense gratitude and purpose that I welcome you to Asiko, a movement built on one conviction: that Africa’s greatest resource is her people, especially her youth.<br /><br />
                 At Asiko, we believe this is Africa’s defining moment — ‘Asiko ti ya’— it’s time to build. Our continent stands at a crossroads of potential and responsibility. With over 500 million young people shaping the future of our economies, governments, and communities, we must reimagine what empowerment truly means beyond inspiration, into innovation, opportunity, and impact.<br /><br />
@@ -50,7 +50,7 @@ const Quote = () => {
             {/* Signature */}
             <div className="mt-12 space-y-2">
               <p className="text-2xl md:text-3xl font-bold text-gray-900">Oluwatobilola Onigbogi Esq.</p>
-              <p className="text-lg md:text-xl text-blue-700 font-medium">CEO - Asiko</p>
+              <p className="text-md md:text-xl text-blue-700 font-medium">CEO - Asiko</p>
             </div>
           </div>
         </div>
