@@ -1,11 +1,12 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // If you want routing on buttons
+import img from "../assets/hero-bg.jpeg"
+import { useNavigate } from 'react-router-dom'; 
 
 const Programs = () => {
-  const navigate = useNavigate(); // Optional: remove if no routing needed
+  const navigate = useNavigate(); 
 
   const handleMentorClick = () => {
-    // navigate('/programs/mentor-marvel'); // Uncomment and adjust route
+    // navigate('/programs/mentor-marvel'); 
   };
 
   const handleLeadClick = () => {
@@ -51,10 +52,23 @@ const Programs = () => {
               Mentor Marvel
             </h2>
             <div className="w-32 h-2 bg-yellow-400 rounded-full"></div>
-            <p className="text-lg md:text-xl leading-relaxed opacity-90">
-              A transformative 6-12 month mentorship initiative pairing ambitious young Africans with accomplished industry leaders and visionaries.
+            <p className="text-md leading-relaxed opacity-90">
+              Mentor Marvel is  an Asiko program connecting young
+              Africans with experienced mentors to build clarity,
+              competence, and confidence for impactful careers.
+              Through structured mentorship and leadership
+              development, it bridges the gap between talent and
+              opportunity
             </p>
-            <ul className="space-y-4 text-base md:text-lg">
+            <p className="text-md leading-relaxed opacity-90">
+           Since inception, features themed tracks across sectors
+          such as Law, Finance, Technology, Healthcare, and
+          Entrepreneurship, engaging over 200 mentees and 100
+          mentors from top institutions such as Oxford, Harvard,
+          and Cambridge, and organizations including the World
+          Bank, African Finance Corporation, and Techstars.
+            </p>
+            <ul className="space-y-4 text-base md:text-md">
               <li className="flex items-start gap-4">
                 <span className="text-3xl">🦸</span>
                 <span>One-on-one personalized mentorship sessions</span>
@@ -76,7 +90,7 @@ const Programs = () => {
               onClick={handleMentorClick}
               className="mt-8 bg-white text-blue-900 px-10 py-5 rounded-full text-xl font-bold shadow-2xl hover:bg-gray-100 transform hover:scale-105 transition-all duration-300"
             >
-              Apply as Mentee / Mentor
+              Get Involved Now !
             </button>
           </div>
 
@@ -112,6 +126,11 @@ const Programs = () => {
           {/* Image Gallery First on Mobile */}
           <div className="grid grid-cols-2 gap-6">
             <img
+              src={img}
+              alt="Audience engaged at youth leadership summit"
+              className="rounded-2xl shadow-2xl object-cover h-80 transform hover:scale-105 transition-transform duration-500"
+            />
+            <img
               src="https://youngafricanleaderssummit.com/wp-content/uploads/2021/12/IMG_3096-scaled.jpg"
               alt="Speaker on stage at African leadership conference"
               className="rounded-2xl shadow-2xl object-cover h-80 transform hover:scale-105 transition-transform duration-500"
@@ -120,11 +139,6 @@ const Programs = () => {
               src="https://youngafricanleaderssummit.com/wp-content/uploads/2021/12/IMG_2883-scaled.jpg"
               alt="Panel discussion with young African leaders"
               className="rounded-2xl shadow-2xl object-cover h-80 mt-12 transform hover:scale-105 transition-transform duration-500"
-            />
-            <img
-              src="https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=768337722393817"
-              alt="Audience engaged at youth leadership summit"
-              className="rounded-2xl shadow-2xl object-cover h-80 transform hover:scale-105 transition-transform duration-500"
             />
             <img
               src="https://thevoiceofafrica.com/wp-content/uploads/2025/04/fd2567b1-4cde-49fc-8b0b-e778a69deed0.jpeg"
@@ -139,8 +153,23 @@ const Programs = () => {
               Lead Conference
             </h2>
             <div className="w-32 h-2 bg-yellow-400 rounded-full"></div>
-            <p className="text-lg md:text-xl leading-relaxed opacity-90">
-              Africa's premier annual leadership summit bringing together 500+ emerging leaders, policymakers, entrepreneurs, and global thinkers for bold conversations and action-oriented outcomes.
+            <p className="text-md leading-relaxed opacity-90">
+              The LEAD Conference (Leadership, Exploration, and
+              Development Conference) was established in 2018 by the
+              founders as students of Bowen University. Designed to
+              cultivate visionary, values-driven leaders, the conference
+              provides a platform for students to engage with industry
+              experts, thought leaders, and alumni through keynotes,
+              mentorship, and skill-development workshops.
+            </p>
+            <p className="text-md leading-relaxed opacity-90">
+              The impact is indelible as the conference has held every
+              year since 2018 and 5,000+ students have been in
+              attendance with notable speakers like previous presidential
+              candidates, business owners and career professionals. The
+              initiative aligns with Asiko’s mission to equip young Africans
+              with clarity, competence, and confidence to build impactful
+              careers and purpose-driven lives
             </p>
             <ul className="space-y-4 text-base md:text-lg">
               <li className="flex items-start gap-4">
@@ -171,7 +200,7 @@ const Programs = () => {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-20 md:py-28 bg-gray-900 text-white text-center">
+      <section className="py-20 md:py-28 bg-blue-900 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h3 className="text-4xl md:text-6xl font-extrabold mb-8">
             Ready to Shape Africa's Future?

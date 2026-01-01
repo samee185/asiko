@@ -2,7 +2,7 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "Working with the WuraisGold mentors changed how we approach product and user research — the guidance was pragmatic and directly applicable.",
+      "Working with the Asiko mentors changed how we approach product and user research — the guidance was pragmatic and directly applicable.",
     name: 'Ebele Johnson',
     role: 'Founder, HealthBridge',
     company: 'HealthBridge',
