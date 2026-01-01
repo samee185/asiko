@@ -4,7 +4,8 @@ import MentorsGrid from '../components/MentorsGrid';
 const Mentors = () => {
   return (
     <main>
-      <MentorsGrid />
+      {/* Show all mentors on the main mentors page */}
+      <MentorsGrid showAll={true} />
     </main>
   );
 };
