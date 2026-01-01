@@ -27,7 +27,7 @@ const Programs = () => {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-6 md:px-12 text-center text-white">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight mb-8 drop-shadow-2xl">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8 drop-shadow-2xl">
             Our Flagship Programs
           </h1>
           <p className="text-xl md:text-3xl max-w-4xl mx-auto leading-relaxed opacity-90">
@@ -48,7 +48,7 @@ const Programs = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="order-2 lg:order-1 space-y-8">
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
+            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Mentor Marvel
             </h2>
             <div className="w-32 h-2 bg-yellow-400 rounded-full"></div>
@@ -149,7 +149,7 @@ const Programs = () => {
 
           {/* Text Content */}
           <div className="space-y-8">
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
+            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
               Lead Conference
             </h2>
             <div className="w-32 h-2 bg-yellow-400 rounded-full"></div>
@@ -202,7 +202,7 @@ const Programs = () => {
       {/* Final CTA Section */}
       <section className="py-20 md:py-28 bg-blue-900 text-white text-center">
         <div className="max-w-4xl mx-auto px-6">
-          <h3 className="text-4xl md:text-6xl font-extrabold mb-8">
+          <h3 className="text-4xl md:text-6xl font-bold mb-8">
             Ready to Shape Africa's Future?
           </h3>
           <p className="text-xl md:text-2xl mb-12 opacity-80">
