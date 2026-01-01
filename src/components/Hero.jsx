@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { use } from 'react'
+import { useNavigate } from 'react-router-dom'
 import img from '../assets/hero-bg.jpeg'
 
 const Hero = () => {
+  const navigate = useNavigate();
+  const handleGetInvolved = () => {
+    navigate('/get-involved'); 
+  };
   return (
     <div>
         <div
@@ -19,7 +24,7 @@ const Hero = () => {
           personal growth and societal development through skill acquisition,
           mentorship, and active participation in impactful projects.
         </span>
-        <button className="bg-blue-900 hover:bg-blue-700 text-white px-6 py-3 rounded-md text-sm md:text-base font-medium transition">
+        <button className="bg-blue-900 hover:bg-blue-600 text-white px-6 py-3 rounded-md text-sm md:text-base font-medium transition" onClick={handleGetInvolved}>
           Get Involved Today
         </button>
       </div>
