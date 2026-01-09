@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-const Avatar = ({ src, name, sizeClasses = 'h-16 w-16 md:h-14 md:w-14' }) => {
+const Avatar = ({ src, name, sizeClasses = 'h-24 w-24 sm:h-28 sm:w-28 md:h-32 md:w-32' }) => {
   const [errored, setErrored] = useState(false);
   const [loaded, setLoaded] = useState(false);
-
+ 
   if (!src || errored) {
     return (
       <div className={`${sizeClasses} rounded-full bg-linear-to-br from-blue-50 to-blue-100 flex items-center justify-center`}>
-        <span className="font-semibold text-blue-900">{getInitials(name)}</span>
+        <span className="font-semibold text-blue-900 text-lg sm:text-xl md:text-2xl">{getInitials(name)}</span>
       </div>
     );
   }
