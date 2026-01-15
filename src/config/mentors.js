@@ -49,6 +49,138 @@ const mentors = [
     profile: '#',
     image: mentor4
   },
+  {
+    id: 5,
+    name: 'Folake Edun',
+    role: 'CEO, Towntalk',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 6,
+    name: 'Chikodi Ukaiwe',
+    role: 'CEO, Salad',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 7,
+    name: 'Victoria Ahiamadu',
+    role: 'Harvard MBA Candidate',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 8,
+    name: 'Onyinye Enyioha',
+    role: 'Technology Specialist,The World Bank',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 9,
+    name: 'Thibaut Picard',
+    role: 'Investment Manager, Axian Group',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 10,
+    name: 'Tomiwa Ogundipe',
+    role: 'Associate, Cytowski & Partners',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 11,
+    name: 'Otome Afiegbe',
+    role: 'Board member, Nesgas Producing Limited',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 12,
+    name: 'Zainab Datti',
+    role: 'Project Management Specialist, Islamic Development Bank',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 13,
+    name: 'Zainab Datti',
+    role: 'Project Management Specialist, Islamic Development Bank',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 14,
+    name: 'Zainab Datti',
+    role: 'Project Management Specialist, Islamic Development Bank',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 15,
+    name: 'Zainab Datti',
+    role: 'Project Management Specialist, Islamic Development Bank',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
+  {
+    id: 16,
+    name: 'Zainab Datti',
+    role: 'Project Management Specialist, Islamic Development Bank',
+    tags: ['Finance', 'Operations', 'Startups'],
+    bio:
+      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
+    email: 'daniel@example.com',
+    profile: '#',
+    image: mentor4
+  },
 ];
 
-export default mentors;
+export default mentors; 
