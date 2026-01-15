@@ -2,9 +2,13 @@ import mentor1 from "../assets/mentor1.jpeg";
 import mentor2 from "../assets/mentor2.jpeg";
 import mentor3 from "../assets/mentor3.jpeg";
 import mentor4 from "../assets/mentor4.jpeg";
+import mentor5 from "../assets/mentor5.jpeg";
+import mentor6 from "../assets/mentor6.jpeg";
 import mentor7 from "../assets/mentor7.jpeg";
 import mentor8 from "../assets/mentor8.jpeg";
 import mentor9 from "../assets/mentor9.jpeg";
+import mentor10 from "../assets/mentor10.jpeg";
+import mentor11 from "../assets/mentor11.jpeg";
 
 import mentor12 from "../assets/mentor12.jpeg";
 
@@ -63,7 +67,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    // image: mentor5
+    image: mentor5
   },
   {
     id: 6,
@@ -74,7 +78,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    // image: mentor6
+    image: mentor6
   },
   {
     id: 7,
@@ -118,7 +122,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    // image: mentor10
+    image: mentor10
   },
   {
     id: 11,
@@ -129,7 +133,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    // image: mentor11
+    image: mentor11
   },
   {
     id: 12,
