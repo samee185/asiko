@@ -2,6 +2,11 @@ import mentor1 from "../assets/mentor1.jpeg";
 import mentor2 from "../assets/mentor2.jpeg";
 import mentor3 from "../assets/mentor3.jpeg";
 import mentor4 from "../assets/mentor4.jpeg";
+import mentor7 from "../assets/mentor7.jpeg";
+import mentor8 from "../assets/mentor8.jpeg";
+import mentor9 from "../assets/mentor9.jpeg";
+
+import mentor12 from "../assets/mentor12.jpeg";
 
 const mentors = [
   {
@@ -58,7 +63,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    image: mentor4
+    // image: mentor5
   },
   {
     id: 6,
@@ -69,7 +74,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    image: mentor4
+    // image: mentor6
   },
   {
     id: 7,
@@ -80,7 +85,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    image: mentor4
+    image: mentor7
   },
   {
     id: 8,
@@ -91,7 +96,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    image: mentor4
+    image: mentor8
   },
   {
     id: 9,
@@ -102,7 +107,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    image: mentor4
+    image: mentor9
   },
   {
     id: 10,
@@ -113,7 +118,7 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    image: mentor4
+    // image: mentor10
   },
   {
     id: 11,
@@ -124,63 +129,19 @@ const mentors = [
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    image: mentor4
+    // image: mentor11
   },
   {
     id: 12,
-    name: 'Zainab Datti',
-    role: 'Project Management Specialist, Islamic Development Bank',
-    tags: ['Finance', 'Operations', 'Startups'],
+    name: 'Temiloluwa Okeowo',
+    role: 'General Counsel and Lead, Partnerships,Babban Gona',
+    tags: ['Legal', 'Operations', 'Startups'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
     profile: '#',
-    image: mentor4
-  },
-  {
-    id: 13,
-    name: 'Zainab Datti',
-    role: 'Project Management Specialist, Islamic Development Bank',
-    tags: ['Finance', 'Operations', 'Startups'],
-    bio:
-      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
-    email: 'daniel@example.com',
-    profile: '#',
-    image: mentor4
-  },
-  {
-    id: 14,
-    name: 'Zainab Datti',
-    role: 'Project Management Specialist, Islamic Development Bank',
-    tags: ['Finance', 'Operations', 'Startups'],
-    bio:
-      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
-    email: 'daniel@example.com',
-    profile: '#',
-    image: mentor4
-  },
-  {
-    id: 15,
-    name: 'Zainab Datti',
-    role: 'Project Management Specialist, Islamic Development Bank',
-    tags: ['Finance', 'Operations', 'Startups'],
-    bio:
-      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
-    email: 'daniel@example.com',
-    profile: '#',
-    image: mentor4
-  },
-  {
-    id: 16,
-    name: 'Zainab Datti',
-    role: 'Project Management Specialist, Islamic Development Bank',
-    tags: ['Finance', 'Operations', 'Startups'],
-    bio:
-      'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
-    email: 'daniel@example.com',
-    profile: '#',
-    image: mentor4
-  },
+    image: mentor12
+  }
 ];
 
 export default mentors; 
