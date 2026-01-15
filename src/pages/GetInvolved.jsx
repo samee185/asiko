@@ -71,18 +71,18 @@ const GetInvolved = () => {
 
       {/* Ways to get involved */}
       <section id="ways" className="mt-10">
-        <h2 className="text-2xl font-bold">Ways to get involved</h2>
+        <h2 className="text-3xl text-blue-900 font-bold">Ways to get involved</h2>
         <p className="mt-2 text-gray-600">Choose what fits your schedule and skills. Every contribution counts.</p>
 
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <article className="group bg-white dark:bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <article className="group bg-gray-200  rounded-xl p-6 shadow hover:shadow-lg transition">
             <div className="flex items-center gap-4">
               <div className="flex-none h-12 w-12 rounded-lg bg-indigo-50 text-indigo-700 flex items-center justify-center group-hover:scale-105 transition">
                 <IconVolunteer className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="font-semibold text-lg">Volunteer</h3>
-                <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">Share your time as a mentor, coach, or community supporter.</p>
+                <h3 className="font-semibold text-blue-900 text-lg">Volunteer</h3>
+                <p className="mt-1 text-sm text-gray-500 ">Share your time as a mentor, coach, or community supporter.</p>
               </div>
             </div>
             <div className="mt-4 flex items-center gap-3">
@@ -92,14 +92,14 @@ const GetInvolved = () => {
             </div>
           </article>
 
-          <article className="group bg-white dark:bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <article className="group bg-gray-200  rounded-xl p-6 shadow hover:shadow-lg transition">
             <div className="flex items-center gap-4">
               <div className="flex-none h-12 w-12 rounded-lg bg-rose-50 text-rose-600 flex items-center justify-center group-hover:scale-105 transition">
                 <IconDonate className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="font-semibold text-lg">Donate</h3>
-                <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">Support programs financially to expand reach and keep services free.</p>
+                <h3 className="font-semibold text-rose-600 text-lg">Donate</h3>
+                <p className="mt-1 text-sm text-gray-500 ">Support programs financially to expand reach and keep services free.</p>
               </div>
             </div>
             <div className="mt-4 flex items-center gap-3">
@@ -109,14 +109,14 @@ const GetInvolved = () => {
             </div>
           </article>
 
-          <article className="group bg-white dark:bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition">
+          <article className="group bg-gray-200 rounded-xl p-6 shadow hover:shadow-lg transition">
             <div className="flex items-center gap-4">
               <div className="flex-none h-12 w-12 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center group-hover:scale-105 transition">
                 <IconPartner className="h-6 w-6" />
               </div>
               <div>
-                <h3 className="font-semibold text-lg">Partner</h3>
-                <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">Collaborate on programs, internships, and community projects.</p>
+                <h3 className="font-semibold text-emerald-700 text-lg">Partner</h3>
+                <p className="mt-1 text-sm text-gray-500 ">Collaborate on programs, internships, and community projects.</p>
               </div>
             </div>
             <div className="mt-4 flex items-center gap-3">
@@ -129,19 +129,19 @@ const GetInvolved = () => {
       </section>
 
       {/* Contact / quick signup form */}
-      <section id="contact" className="mt-10 bg-white dark:bg-gray-900 rounded-xl p-6 shadow">
-        <h2 className="text-xl font-semibold">Quick sign-up</h2>
-        <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">Tell us how you'd like to help and we'll follow up within 48 hours.</p>
+      <section id="contact" className="mt-10 bg-gray-200 rounded-xl p-6 shadow">
+        <h2 className="text-xl text-blue-900 font-semibold">Quick sign-up</h2>
+        <p className="mt-2 text-sm text-gray-600 ">Tell us how you'd like to help and we'll follow up within 48 hours.</p>
 
         <form className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3" onSubmit={(e) => e.preventDefault()} aria-label="Get involved form">
           <label className="sr-only" htmlFor="name">Full name</label>
-          <input id="name" name="name" type="text" placeholder="Full name" className="md:col-span-1 rounded-md border-gray-200 p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500" />
+          <input id="name" name="name" type="text" placeholder="Full name" className="md:col-span-1 rounded-md border border-gray-600 p-3 focus:border-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500" />
 
           <label className="sr-only" htmlFor="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="Email address" className="md:col-span-1 rounded-md border-gray-200 p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500" />
+          <input id="email" name="email" type="email" placeholder="Email address" className="md:col-span-1 rounded-md border border-gray-600 p-3 focus:border-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500" />
 
           <label className="sr-only" htmlFor="message">Message</label>
-          <input id="message" name="message" type="text" placeholder="How you'd like to help (e.g. mentor, donate)" className="md:col-span-1 rounded-md border-gray-200 p-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500" />
+          <input id="message" name="message" type="text" placeholder="How you'd like to help (e.g. mentor, donate)" className="md:col-span-1 rounded-md border border-gray-600 p-3 focus:border-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500" />
 
           <div className="md:col-span-3 mt-2 flex items-center gap-3">
             <button type="submit" className="inline-flex items-center px-5 py-3 bg-indigo-600 text-white rounded-md font-semibold shadow hover:scale-[1.01] transition focus-visible:ring-4 focus-visible:ring-indigo-300">Send request</button>
