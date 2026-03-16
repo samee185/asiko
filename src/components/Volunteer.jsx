@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import img from '../assets/home1.jpeg'
+import img from '../assets/home3.jpeg'
 
 const Volunteer = () => {
     const navigate = useNavigate();

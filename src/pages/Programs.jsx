@@ -1,6 +1,10 @@
 import React from 'react';
 import img from "../assets/hero-bg.jpeg"
+import img2 from "../assets/img2.jpeg"
+import img3 from "../assets/img3.jpeg"
+import img4 from "../assets/home3.jpeg"
 import { useNavigate } from 'react-router-dom'; 
+import Quote from '../components/Quote';
 
 const Programs = () => {
   const navigate = useNavigate(); 
@@ -25,6 +29,7 @@ const Programs = () => {
             className="w-full h-full object-cover"
           />
         </div>
+        
 
         <div className="relative max-w-7xl mx-auto px-6 md:px-12 text-center text-white">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8 drop-shadow-2xl">
@@ -41,6 +46,9 @@ const Programs = () => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </div>
+      </section>
+      <section>
+        <Quote />
       </section>
 
       {/* Mentor Marvel Full-Width Section */}
@@ -131,17 +139,19 @@ const Programs = () => {
               className="rounded-2xl shadow-2xl object-cover h-80 transform hover:scale-105 transition-transform duration-500"
             />
             <img
-              src="https://youngafricanleaderssummit.com/wp-content/uploads/2021/12/IMG_3096-scaled.jpg"
-              alt="Speaker on stage at African leadership conference"
-              className="rounded-2xl shadow-2xl object-cover h-80 transform hover:scale-105 transition-transform duration-500"
-            />
-            <img
-              src="https://youngafricanleaderssummit.com/wp-content/uploads/2021/12/IMG_2883-scaled.jpg"
+              src={img3}
               alt="Panel discussion with young African leaders"
               className="rounded-2xl shadow-2xl object-cover h-80 mt-12 transform hover:scale-105 transition-transform duration-500"
             />
             <img
-              src="https://thevoiceofafrica.com/wp-content/uploads/2025/04/fd2567b1-4cde-49fc-8b0b-e778a69deed0.jpeg"
+              src={img2}
+              alt="Speaker on stage at African leadership conference"
+              className="rounded-2xl shadow-2xl object-cover h-80 transform hover:scale-105 transition-transform duration-500"
+            />
+            
+              
+            <img
+              src={img4}
               alt="Networking and celebration at conference"
               className="rounded-2xl shadow-2xl object-cover h-80 mt-12 transform hover:scale-105 transition-transform duration-500"
             />
