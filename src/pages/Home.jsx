@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
+import Stats from '../components/Stats';
 import Quote from '../components/Quote';
 import About from '../components/About';
 import Focus from '../components/Focus';
@@ -10,9 +11,11 @@ const Home = () => {
   return (
     <main className="">
       <Hero />
+      
       {/* <Quote /> */}
       <About />
       <Focus />
+      <Stats />
       <MentorsGrid />
       <Volunteer />
       <Testimonials />
