@@ -10,7 +10,7 @@ const Programs = () => {
   const navigate = useNavigate(); 
 
   const handleMentorClick = () => {
-    // navigate('/programs/mentor-marvel'); 
+    
   };
 
   const handleLeadClick = () => {
