@@ -98,7 +98,7 @@ const Programs = () => {
               onClick={handleMentorClick}
               className="mt-8 bg-white text-blue-900 px-10 py-5 rounded-full text-xl font-bold shadow-2xl hover:bg-gray-100 transform hover:scale-105 transition-all duration-300"
             >
-              Get Involved Now !
+              Get Involved Now!
             </button>
           </div>
 
