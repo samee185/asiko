@@ -1,11 +1,10 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import img from '../assets/home3.jpeg'
 
 const Volunteer = () => {
-    const navigate = useNavigate();
+    const FORM_URL = 'https://forms.gle/SZ3mapMcg5tyaPfW8';
     const handleGetInvolved = () => {
-      navigate('/get-involved'); 
+      window.open(FORM_URL, '_blank', 'noopener,noreferrer');
     }
   return (
     <div>

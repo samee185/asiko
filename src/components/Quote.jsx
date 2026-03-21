@@ -37,13 +37,22 @@ const Quote = () => {
             <div className="relative max-w-4xl mx-auto">
               <span className="absolute -top-8 -left-4 md:-top-12 md:-left-8 text-6xl md:text-8xl lg:text-9xl text-blue-900 opacity-20 font-serif">“</span>
               <blockquote className="text-md leading-relaxed text-gray-800 italic relative z-10">
-                Distinguished Partners and Friends,<br />
-                It is with immense gratitude and purpose that I welcome you to Asiko, a movement built on one conviction: that Africa’s greatest resource is her people, especially her youth.<br /><br />
-                At Asiko, we believe this is Africa’s defining moment — ‘Asiko ti ya’— it’s time to build. Our continent stands at a crossroads of potential and responsibility. With over 500 million young people shaping the future of our economies, governments, and communities, we must reimagine what empowerment truly means beyond inspiration, into innovation, opportunity, and impact.<br /><br />
-                Our vision is simple yet urgent: to nurture a generation of Africans who are not only skilled, but self-aware, socially responsible, and globally competitive. We are creating ecosystems where mentorship, leadership, and practical learning converge turning bright ideas into tangible solutions for Africa’s challenges.<br /><br />
-                Already, Asiko is connecting emerging leaders with mentors, equipping innovators with resources, and sparking dialogues that challenge the status quo. But our progress depends on one thing, collaboration. We cannot build Africa’s future in silos. We need institutions, governments, private sector leaders, and development partners to share in this vision.<br /><br />
-                Your partnership, guidance, and trust are what make this mission possible. Together, we can translate passion into progress, dreams into development, and potential into prosperity. Let us continue to invest not just in projects, but in people. Because when Africa’s youth thrive, Africa rises.<br /><br />
-                Thank you for believing in Asiko. Thank you for building with us.
+                Asiko is a movement grounded in one belief: Africa’s greatest resource is her people, especially her young people.
+
+This is our moment -
+Asiko ti ya - it’s time to build. With over 500 million young Africans, we have a unique opportunity to shape the future we want. But shaping it requires more than inspiration; it demands innovation, action, and the courage to build what does not yet exist.
+
+At Asiko, we are raising a generation that is skilled, self-aware, and globally competitive. We are building ecosystems where young people are mentored to solve real problems and given the opportunities to shape their own paths; because every time we invest in a young person, we are building the rails of Africa.
+
+But this vision is bigger than us. It requires all of us.
+
+So we ask you: don’t just believe in this vision; be part of it.
+
+Mentor. Volunteer. Partner with us.
+
+Because when young Africans rise, Africa rises. And when Africa rises, the world rises with her.
+
+Thank you for building with us.
               </blockquote>
             </div>
 

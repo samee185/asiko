@@ -7,8 +7,8 @@ const Stats = () => {
 
   const stats = [
     {
-      number: 12,
-      suffix: '',
+      number: 100,
+      suffix: '+',
       label: 'Expert Mentors',
       description: 'Senior professionals from top organizations',
       icon: FaUserGraduate,

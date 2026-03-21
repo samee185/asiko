@@ -3,14 +3,14 @@ import img from "../assets/hero-bg.jpeg"
 import img2 from "../assets/img2.jpeg"
 import img3 from "../assets/img3.jpeg"
 import img4 from "../assets/home3.jpeg"
-import { useNavigate } from 'react-router-dom'; 
+// using external form URL for Get Involved buttons
 import Quote from '../components/Quote';
 
 const Programs = () => {
-  const navigate = useNavigate(); 
+  const FORM_URL = 'https://forms.gle/SZ3mapMcg5tyaPfW8';
 
   const handleMentorClick = () => {
-    
+    window.open(FORM_URL, '_blank', 'noopener,noreferrer');
   };
 
   const handleLeadClick = () => {
@@ -218,7 +218,7 @@ const Programs = () => {
           <p className="text-xl md:text-2xl mb-12 opacity-80">
             Join thousands of young Africans already transforming the continent through Asiko's programs.
           </p>
-          <button className="bg-yellow-400 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold shadow-2xl hover:bg-yellow-300 transform hover:scale-110 transition-all duration-300">
+          <button onClick={() => window.open(FORM_URL, '_blank', 'noopener,noreferrer')} className="bg-yellow-400 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold shadow-2xl hover:bg-yellow-300 transform hover:scale-110 transition-all duration-300">
             Get Involved Today
           </button>
         </div>

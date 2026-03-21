@@ -1,11 +1,10 @@
-import React, { use } from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from 'react'
 import img from '../assets/home2.jpeg'
 
 const Hero = () => {
-  const navigate = useNavigate();
+  const FORM_URL = 'https://forms.gle/SZ3mapMcg5tyaPfW8';
   const handleGetInvolved = () => {
-    navigate('/get-involved'); 
+    window.open(FORM_URL, '_blank', 'noopener,noreferrer');
   };
   return (
     <div>
