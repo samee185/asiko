@@ -7,7 +7,7 @@ const Stats = () => {
 
   const stats = [
     {
-      number: 105,
+      number: 100,
       suffix: '+',
       label: 'Expert Mentors',
       description: 'Senior professionals from top organizations',
