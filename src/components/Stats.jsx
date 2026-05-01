@@ -25,7 +25,7 @@ const Stats = () => {
     {
       number: 5000,
       suffix: '+',
-      label: 'Youth Reached',
+      label: 'Young People Reached',
       description: 'Through programs, summits, and initiatives',
       icon: FaChild,
       color: 'from-purple-500 to-pink-500'

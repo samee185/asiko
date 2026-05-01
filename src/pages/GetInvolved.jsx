@@ -86,7 +86,7 @@ const GetInvolved = () => {
               </div>
             </div>
             <div className="mt-4 flex items-center gap-3">
-              <a href="/volunteer" className="text-indigo-600 font-medium hover:underline">Sign up to volunteer</a>
+              <a href="" className="text-indigo-600 font-medium hover:underline">Sign up to volunteer</a>
               <span className="inline-block h-1 w-1 bg-gray-200 rounded-full" aria-hidden></span>
               <span className="text-sm text-gray-500">Flexible shifts</span>
             </div>
@@ -103,7 +103,7 @@ const GetInvolved = () => {
               </div>
             </div>
             <div className="mt-4 flex items-center gap-3">
-              <a href="/donate" className="text-rose-600 font-medium hover:underline">Make a donation</a>
+              <a href="" className="text-rose-600 font-medium hover:underline">Make a donation</a>
               <span className="inline-block h-1 w-1 bg-gray-200 rounded-full" aria-hidden></span>
               <span className="text-sm text-gray-500">One-time or recurring</span>
             </div>
@@ -120,7 +120,7 @@ const GetInvolved = () => {
               </div>
             </div>
             <div className="mt-4 flex items-center gap-3">
-              <a href="/partners" className="text-emerald-700 font-medium hover:underline">Become a partner</a>
+              <a href="" className="text-emerald-700 font-medium hover:underline">Become a partner</a>
               <span className="inline-block h-1 w-1 bg-gray-200 rounded-full" aria-hidden></span>
               <span className="text-sm text-gray-500">Corporate & NGO options</span>
             </div>

@@ -36,7 +36,7 @@ const Programs = () => {
             Our Flagship Programs
           </h1>
           <p className="text-xl md:text-3xl max-w-4xl mx-auto leading-relaxed opacity-90">
-            Transforming Africa's youth into confident leaders, innovators, and change-makers through world-class mentorship and inspirational gatherings.
+            Transforming Africa's young people into confident leaders, innovators, and change-makers through world-class mentorship and inspirational gatherings.
           </p>
         </div>
 
@@ -116,7 +116,7 @@ const Programs = () => {
             />
             <img
               src="https://www.bgca.org/wp-content/uploads/2024/01/24-MKTG-0002-BoysGirls_Clubs_of_America_Mentorship_945x625.jpg"
-              alt="Diverse youth in mentorship circle"
+              alt="Diverse young people in mentorship circle"
               className="rounded-2xl shadow-2xl object-cover h-80 transform hover:scale-105 transition-transform duration-500"
             />
             <img
@@ -135,7 +135,7 @@ const Programs = () => {
           <div className="grid grid-cols-2 gap-6">
             <img
               src={img}
-              alt="Audience engaged at youth leadership summit"
+              alt="Audience engaged at young people leadership summit"
               className="rounded-2xl shadow-2xl object-cover h-80 transform hover:scale-105 transition-transform duration-500"
             />
             <img
@@ -218,7 +218,7 @@ const Programs = () => {
           <p className="text-xl md:text-2xl mb-12 opacity-80">
             Join thousands of young Africans already transforming the continent through Asiko's programs.
           </p>
-          <button onClick={() => window.open(FORM_URL, '_blank', 'noopener,noreferrer')} className="bg-yellow-400 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold shadow-2xl hover:bg-yellow-300 transform hover:scale-110 transition-all duration-300">
+          <button  className="bg-yellow-400 text-gray-900 px-12 py-6 rounded-full text-2xl font-bold shadow-2xl hover:bg-yellow-300 transform hover:scale-110 transition-all duration-300">
             Get Involved Today
           </button>
         </div>

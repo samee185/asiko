@@ -47,8 +47,8 @@ export default function Footer() {
         {/* Contact Info */}
         <div>
           <h4 className="font-semibold mb-4">Contact Us</h4>
-          <p className="text-sm ">support@asiko.com</p>
-          <p className="text-sm mt-1">+234 806 650 9008</p>
+          <p className="text-sm ">info@asiko.com</p>
+          <p className="text-sm mt-1">+234 802 691 6355</p>
         </div>
 
         {/* Social Links */}

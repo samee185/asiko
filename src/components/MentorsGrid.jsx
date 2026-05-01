@@ -17,9 +17,9 @@ const MentorsGrid = ({ showAll = false }) => {
             <h2 id="mentors-heading" className="text-2xl text-center md:text-4xl font-bold text-blue-900">
               Meet our mentors
             </h2>
-            <p className="mt-2 text-blue-900 text-center max-w-xl">
+            {/* <p className="mt-2 text-blue-900 text-center max-w-xl">
               Seasoned practitioners across product, engineering, growth and operations who mentor and advise our community.
-            </p>
+            </p> */}
           </div>
           <div className="mt-3 md:mt-0 flex items-center gap-3">
             <div className="inline-flex items-center gap-2 bg-white border border-transparent rounded-full px-3 py-2 shadow-sm">

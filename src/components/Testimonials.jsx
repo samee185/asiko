@@ -57,11 +57,11 @@ const Testimonials = ({ autoplay = true, interval = 6000 }) => {
         <div className="flex items-start justify-between gap-6 mb-8">
           <div>
             <h2 id="testimonials-heading" className="text-2xl md:text-3xl font-extrabold text-blue-900 text-center">
-              Trusted by founders and practitioners
+              Hear the feedback
             </h2>
-            <p className="mt-2 text-blue-900 text-center max-w-xl">
+            {/* <p className="mt-2 text-blue-900 text-center max-w-xl">
               Real experiences from the community — concise, practical feedback from those who've been there.
-            </p>
+            </p> */}
           </div>
         </div>
 

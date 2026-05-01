@@ -54,14 +54,14 @@ generations
                 <Single
                   title="Opportunities"
                   Icon={BriefcaseIcon}
-                  text={`Connect youth to jobs, internships, and startup opportunities.`}
+                  text={`Connect young people to jobs, internships, and startup opportunities.`}
                 />
               </li>
               <li>
                 <Single
                   title="Livelihoods"
                   Icon={BanknotesIcon}
-                  text={`Empower youth to achieve financial stability and independence.`}
+                  text={`Empower young people to achieve financial stability and independence.`}
                 />
               </li>
               <li>

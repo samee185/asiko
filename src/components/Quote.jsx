@@ -20,9 +20,9 @@ const Quote = () => {
           <div className="absolute bottom-0 right-0 w-20 h-20 border-r-4 border-b-4 border-blue-900 rounded-br-3xl"></div>
 
           <div className="relative z-10 text-center">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-blue-900 mb-10 tracking-tight">
+            {/* <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-blue-900 mb-10 tracking-tight">
               Founder's Address
-            </h1>
+            </h1> */}
 
             {/* Founder Portrait - using a professional placeholder (replace with actual photo URL) */}
             <div className="mb-12 mx-auto w-40 h-40 md:w-52 md:h-52 lg:w-64 lg:h-64">
@@ -59,7 +59,7 @@ Thank you for building with us.
             {/* Signature */}
             <div className="mt-12 space-y-2">
               <p className="text-2xl md:text-3xl font-bold text-gray-900">Oluwatobilola Onigbogi Esq.</p>
-              <p className="text-md md:text-xl text-blue-700 font-medium">CEO - Asiko</p>
+              <p className="text-md md:text-xl text-blue-700 font-medium">Founder - Asiko</p>
             </div>
           </div>
         </div>

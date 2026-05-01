@@ -17,10 +17,10 @@ const About = () => {
           {/* Text content first on mobile for better SEO/reading order */}
           <div className="order-2 md:order-1 flex flex-col gap-6">
             <p className="text-md leading-8 text-gray-700">
-              Asiko is a youth-focused organization committed to unlocking Africa’s potential by empowering its young people with the skills, networks, and opportunities to thrive.
+              Asiko is a young people-focused organization committed to unlocking Africa’s potential by empowering its young people with the skills, networks, and opportunities to thrive.
             </p>
             <p className="text-md leading-8 text-gray-700">
-              Since 2018, Asiko has reached over 5,000 youth through mentorship programs, leadership summits, and capacity-building initiatives designed to foster employability, entrepreneurship, and purposeful leadership.
+              Since 2018, Asiko has reached over 5,000 young people through mentorship programs, leadership summits, and capacity-building initiatives designed to foster employability, entrepreneurship, and purposeful leadership.
             </p>
             <p className="text-md leading-8 text-gray-700">
               With a vision for a prosperous Africa led by prosperous Africans, Asiko is building a generation ready to drive sustainable change across the continent.
@@ -52,7 +52,7 @@ const About = () => {
             <figure className="overflow-hidden rounded-2xl shadow-xl">
               <img
                 src={home1}
-                alt="Youth participants at an Asiko leadership summit or mentorship event, representing empowerment and community impact in Africa"
+                alt="Young People participants at an Asiko leadership summit or mentorship event, representing empowerment and community impact in Africa"
                 className="aspect-4/3 w-full object-cover transition-transform duration-500 hover:scale-105"
                 loading="lazy"
                 width="800"
