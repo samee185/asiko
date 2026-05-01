@@ -17,7 +17,7 @@ const mentors = [
     id: 1,
     name: 'Okezi Uwede-Mesack',
     role: 'Lead Counsel, GE Power',
-    tags: ['Design', 'UX', 'Product'],
+    tags: ['Law', 'Energy', 'Corporate Practice'],
     bio:
       'Amina helps teams design delightful products. She focuses on research-driven design and scalable systems.',
     email: 'amina@example.com',
@@ -28,7 +28,7 @@ const mentors = [
     id: 2,
     name: 'Motunrayo Ope-Ogunseitan',
     role: 'Data Protection Business Specialist, Dubai Holding',
-    tags: ['Engineering', 'React', 'Node.js'],
+    tags: ['Data Protection', 'Legal Advisory', 'Compliance'],
     bio:
       'Kwame builds resilient web platforms and mentors startups on engineering best practices and architecture.',
     email: 'kwame@example.com',
@@ -40,7 +40,7 @@ const mentors = [
     id: 3,
     name: 'Victoria Ibiwoye',
     role: 'Founder, One African Child',
-    tags: ['Growth', 'Strategy', 'Partnerships'],
+    tags: ['Growth', 'Strategy', 'Social Impact'],
     bio:
       'Nneka helps social ventures find product-market fit and scale through partnerships and data-driven growth.',
     email: 'nneka@example.com',
@@ -51,7 +51,7 @@ const mentors = [
     id: 4,
     name: 'Zainab Datti',
     role: 'Project Management Specialist, Islamic Development Bank',
-    tags: ['Finance', 'Operations', 'Startups'],
+    tags: ['Project Management', 'Finance', 'Development'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
@@ -62,7 +62,7 @@ const mentors = [
     id: 5,
     name: 'Folake Edun',
     role: 'CEO, Towntalk',
-    tags: ['Finance', 'Operations', 'Startups'],
+    tags: ['Finance', 'Operations', 'Entrepreneurship'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
@@ -73,7 +73,7 @@ const mentors = [
     id: 6,
     name: 'Chikodi Ukaiwe',
     role: 'CEO, Salad',
-    tags: ['Finance', 'Operations', 'Startups'],
+    tags: ['Startups', 'Operations', 'Venture Building'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
@@ -84,7 +84,7 @@ const mentors = [
     id: 7,
     name: 'Victoria Ahiamadu',
     role: 'Harvard MBA Candidate',
-    tags: ['Finance', 'Operations', 'Startups'],
+    tags: ['Finance', 'Strategy', 'Business Leadership'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
@@ -95,7 +95,7 @@ const mentors = [
     id: 8,
     name: 'Onyinye Enyioha',
     role: 'Technology Specialist,The World Bank',
-    tags: ['Finance', 'Operations', 'Startups'],
+    tags: ['Technology', 'Digital Transformation', 'Enterpreneurship'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
@@ -106,7 +106,7 @@ const mentors = [
     id: 9,
     name: 'Thibaut Picard',
     role: 'Investment Manager, Axian Group',
-    tags: ['Finance', 'Operations', 'Startups'],
+    tags: ['Investment', 'Finance', 'Private Equity'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
@@ -117,7 +117,7 @@ const mentors = [
     id: 10,
     name: 'Tomiwa Ogundipe',
     role: 'Associate, Cytowski & Partners',
-    tags: ['Finance', 'Operations', 'Startups'],
+    tags: ['Law', 'Corporate', 'Commercial Practice'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
@@ -128,7 +128,7 @@ const mentors = [
     id: 11,
     name: 'Otome Afiegbe',
     role: 'Board member, Nesgas Producing Limited',
-    tags: ['Finance', 'Operations', 'Startups'],
+    tags: ['Corporate Governance', 'Energy', 'Operations'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
@@ -139,7 +139,7 @@ const mentors = [
     id: 12,
     name: 'Temiloluwa Okeowo',
     role: 'General Counsel and Lead, Partnerships,Babban Gona',
-    tags: ['Legal', 'Operations', 'Startups'],
+    tags: ['Legal', 'Partnerships', 'Agribusiness Strategy'],
     bio:
       'Daniel advises early-stage teams on unit economics, fundraising readiness, and operational excellence.',
     email: 'daniel@example.com',
